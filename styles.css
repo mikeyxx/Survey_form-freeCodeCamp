@@ -1,0 +1,95 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  .pagewrapper {
+    line-height: 1.7;
+    font-family: "Poppins", sans-serif;
+    background-color: #9acfdd;
+  }
+  
+  .header {
+    text-align: center;
+    display: block;
+    margin: 0 auto 30px auto;
+    padding-top: 30px;
+  }
+  
+  #survey-form {
+    max-width: 460px;
+    margin: 20px auto 0 auto;
+    padding: 35px;
+    background-color: #293443;
+    color: rgb(255 255 255);
+    font-size: 20px;
+  }
+  
+  .form-field {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin-bottom: 20px;
+  }
+  
+  .radio-button {
+    display: block;
+  }
+  
+  .form-class {
+    display: block;
+    border: none;
+    border-radius: 5px;
+    padding: 7px 20px;
+    font-size: 15px;
+  }
+  
+  #comments {
+    height: 110px;
+    margin-bottom: 10px;
+    padding: 5px 10px;
+    font-size: 18px;
+    border: none;
+    border-radius: 3px;
+  }
+  
+  input[type="radio"] {
+    margin-right: 5px;
+    height: 20px;
+    width: 20px;
+  }
+  
+  input {
+    font-size: 15px;
+  }
+  
+  input[type="checkbox"] {
+    margin-right: 5px;
+    height: 20px;
+    width: 20px;
+  }
+  
+  .form-field > label[for="comments"] {
+    margin-top: 20px;
+  }
+  
+  #submit {
+    font-size: 18px;
+    padding: 12px 0;
+    background-color: #00994c;
+    border: none;
+    border-radius: 3px;
+    color: rgb(255 255 255);
+  }
+  
+  #submit:hover {
+    background-color: #00cc66;
+  }
+  
+  @media (min-width: 700px) {
+    #survey-form {
+      max-width: 680px;
+    }
+  }
+  
